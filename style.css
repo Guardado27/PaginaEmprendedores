@@ -1,6 +1,33 @@
-body{
-    background-color: antiquewhite;
-}
-nav{
+/* Estilos para el body */
+body {
+    padding: 10px;
+    border: 2px solid #ccc;
+  }
+  
+  /* Estilos para el contenedor principal */
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Estilos para el contenido principal */
+  .main-content {
+    display: flex;
+  }
+  
+  /* Estilos para el footer */
+  .footer {
+    text-align: center;
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 0; 
+  }
+  
+  .NAV1{  
+    background-color: wheat;
+    display: flex;
+  }
+  .Presentacion{
     justify-content: center;
-}
+  }
